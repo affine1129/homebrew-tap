@@ -1,2 +1,2 @@
-# homebrew-lazynotion
+# homebrew-tap
 For installing tools via Homebrew
