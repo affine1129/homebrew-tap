@@ -1,2 +1,2 @@
 # homebrew-lazynotion
-For installing lazynotion via Homebrew
+For installing tools via Homebrew
