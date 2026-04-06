@@ -11,7 +11,7 @@ class Lazynotion < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/affine1129/lazynotion/releases/download/v0.1.0/lazynotion_0.1.0_darwin_amd64.tar.gz"
-      sha256 "8cfee4cfc9cfa68825f46793b2076c2805ca3cc28d22015042b5b434bf5a27d4"
+      sha256 "14013ce31c0b9b3b05a4fd1018ff22a4751915285e6e72ea34a054197b5e947d"
 
       define_method(:install) do
         bin.install "lazynotion"
@@ -19,7 +19,7 @@ class Lazynotion < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/affine1129/lazynotion/releases/download/v0.1.0/lazynotion_0.1.0_darwin_arm64.tar.gz"
-      sha256 "f4b9863e88c6d376958789e5ce0a0c890282eb807d037f9832ba1a82095b5892"
+      sha256 "5877734421ec47a2d0d2faa2ac6a1a8c27d9f21d3d95f3a29fff81f945288221"
 
       define_method(:install) do
         bin.install "lazynotion"
@@ -30,14 +30,14 @@ class Lazynotion < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/affine1129/lazynotion/releases/download/v0.1.0/lazynotion_0.1.0_linux_amd64.tar.gz"
-      sha256 "6255dff102edfc07a20d292ecd5d1de10fa2c3c1b319629d20ab7c92711ca02b"
+      sha256 "d212b7ae79fdce610746ad16856354bddd100a7f2d67ec0679f6dd6b07fdf48e"
       define_method(:install) do
         bin.install "lazynotion"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/affine1129/lazynotion/releases/download/v0.1.0/lazynotion_0.1.0_linux_arm64.tar.gz"
-      sha256 "4827f467beb33ef5a104a98dded418e4202207a969a6ea82d12445ec4975d01d"
+      sha256 "5b92b79076df464d286d8d23f08e539cb9977486e30ff466584013a5bde83234"
       define_method(:install) do
         bin.install "lazynotion"
       end
